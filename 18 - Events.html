@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+        <title>18 - Events</title>      
+    </head>
+    <body>
+    </body> 
+</html>
+
+<script> 
+    let onMouseClick = function(e) {
+        console.log("Hello");
+    };
+    
+    let onMouseLeave = function(e) {
+        console.log("out");
+    };
+    
+    document.addEventListener("click", onMouseClick, false);
+    document.addEventListener("mouseleave", onMouseLeave, false);
+</script>
